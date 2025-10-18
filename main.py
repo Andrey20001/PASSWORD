@@ -7,6 +7,6 @@ lll = int(input("Какой длины сгенерировать пароль? 
 password = ""
 
 for i in range(lll):
-    password += list[random.randint(0, len(list) - 1)]
+    password += random.choice(list)
 
 print("Ваш пароль:", password)
